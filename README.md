@@ -549,7 +549,8 @@ int happyCow(config *conf, char *args[], int argc, int cursor);
 /*FIN FONCTIONS OPTIONS*/
 
 /**
- * Fonction principale génère la configuration de la vache à partir des arguments passé à la commande. Puis affiche la vache.
+ * Fonction principale génère la configuration de la vache à partir des arguments passé à la
+ * commande. Puis affiche la vache.
  *
  *
  * @param argc le nombre d'arguments donné.
@@ -563,7 +564,8 @@ int main(int argc, char *args[]) {
 
 /*CORE IMPLEMENTATION*/
 /**
- * Cette fonction alloue de l'espace mémoire pour stocker une configuration. Et initialise cette configuration avec les valeurs par default.
+ * Cette fonction alloue de l'espace mémoire pour stocker une configuration. Et initialise
+ * cette configuration avec les valeurs par default.
  *
  * Utilises les arguments pour estimé la taille du text à afficher par la vache.
  *
@@ -587,20 +589,22 @@ config *loadDefaultConfig(int argc, char *args[]) {
 }
 
 /**
- *  Cette fonction appelle la fonction loadDefaultConfig et récupère donc la configuration par default.
- *  Elle va ensuite à partir des arguments extraires les données et modifier la configuration en fonctions de ceux ci.
+ *  Cette fonction appelle la fonction loadDefaultConfig et récupère donc la configuration
+ *  par default. Elle va ensuite à partir des arguments extraires les données et modifier la
+ *  configuration en fonctions de ceux ci.
  *
  *  Le système d'option est très solide et permet pas mal de choses.
- *  Nous avons considéré les arguments comme un flux de mot. Nous avons créé une variable "cursor" qui enregistre
- *  la position actuelle de notre lecture du flux.
+ *  Nous avons considéré les arguments comme un flux de mot. Nous avons créé une variable
+ *  "cursor" qui enregistre la position actuelle de notre lecture du flux.
  *
- *  Si un argument commence par un '-' il est considéré comme une option. L'argument est donc passé à la fonction
- *  "paramDispatcher" qui va se charger d'exécuter la fonction associé à l'option courante.
- *  Une option peu consumer un/plusieurs arguments dont il est suivis. Par exemple : "-e 'xx'", ici l'option "-e"
- *  consume l'argument 'xx' en ajoutant 1 au cursor.
+ *  Si un argument commence par un '-' il est considéré comme une option. L'argument est donc
+ *  passé à la fonction "paramDispatcher" qui va se charger d'exécuter la fonction associé à
+ *  l'option courante.
+ *  Une option peu consumer un/plusieurs arguments dont il est suivis.
+ *  Par exemple : "-e 'xx'", ici l'option "-e" consume l'argument 'xx' en ajoutant 1 au cursor.
  *
- *  Si un argument ne commence pas par un '-' il est considéré comme le text à afficher par la vache. Il est directement
- *  ajouté à la variable "displayText" de la config.
+ *  Si un argument ne commence pas par un '-' il est considéré comme le text à afficher par
+ *  la vache. Il est directement ajouté à la variable "displayText" de la config.
  *
  * @return la configuration customisé à l'aide des arguments.
  */
@@ -627,7 +631,8 @@ config *extract_params(int argc, char *args[]) {
 /**
  * Distribue l'option courante (args[cursor]) à sa fonction associée.
  *
- * Si aucune fonction n'est associé à cette option alors le programme s'arrête avec un message d'erreur.
+ * Si aucune fonction n'est associé à cette option alors le programme s'arrête avec un message
+ * d'erreur.
  *
  * @param conf la config à modifier.
  * @param args args.
@@ -1803,7 +1808,8 @@ int main(int argc, char *args[]) {
 }
 
 /**
- * Fonction qui demande le nombre de ration à consommer, et fait en sorte que la valeur soit juste.
+ * Fonction qui demande le nombre de ration à consommer, et fait en sorte que la valeur
+ * soit juste.
  *
  * @return le nombre de ration à consommer.
  */
