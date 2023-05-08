@@ -2,6 +2,8 @@
 
 Compte Rendu du projet d'inf203.
 
+Toutes les sources sont disponibles (*ici dans le compte rendu, mais aussi dans le repo git*).
+
 ``Arnaud ALET``  &  ``Abdelkader Al Akoum``.
 
 # Shell
@@ -841,7 +843,7 @@ Tout le code est commenté. Pour plus d'informations sur le fonctionnement de ch
 
 #### Exécution
 
-- `./a.out -T 'U ' Bonjour ! -e ^^`
+- `./newcow -T 'U ' Bonjour ! -e ^^`
 ```text
  ___________
 < Bonjour ! >
@@ -890,7 +892,7 @@ Tout le code est commenté. Pour plus d'informations sur le fonctionnement de ch
 
 ```
 
-- `./a.out Les options peuvent etre mises nimporte ou ! -W 30 ! dans le message elles ! -d ! seront bien detecte.` (*changement de la taille de la ligne*)
+- `./newcow Les options peuvent etre mises nimporte ou ! -W 30 ! dans le message elles ! -d ! seront bien detecte.` (*changement de la taille de la ligne*)
 ```text
  ________________________________
 / Les options peuvent etre mises \
@@ -905,7 +907,7 @@ Tout le code est commenté. Pour plus d'informations sur le fonctionnement de ch
                 ||     ||
 ```
 
-- `./a.out Les options peuvent etre mises importe ou ! -W 150 ! dans le message elles ! -ha ! seront bien detecte.` (*changement de la taille de la ligne*)
+- `./newcow Les options peuvent etre mises importe ou ! -W 150 ! dans le message elles ! -ha ! seront bien detecte.` (*changement de la taille de la ligne*)
 ```text
  ______________________________________________________________________________________________
 < Les options peuvent etre mises importe ou ! ! dans le message elles ! ! seront bien detecte. >
@@ -1964,5 +1966,6 @@ Vous avez survécu 63 jours.
 
 Merci de nous avoir lu !
 
+Toutes les sources sont disponibles (*ici dans le compte rendu, mais aussi dans le repo git*).
 
-<center>Arnaud ALET et Abdelkader Al Akoum - IMA-04 - INF203 - 2023 - UGA</center>
+Arnaud ALET et Abdelkader Al Akoum - IMA-04 - INF203 - 2023 - UGA
