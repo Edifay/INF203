@@ -2,6 +2,8 @@
 
 Compte Rendu du projet d'inf203.
 
+Les code-blocks sont très mal exporté de markdown à pdf. C'est pour quoi nous avons préféré laisser le compte rendu en .md accessible à partir de ce repo github.
+
 Toutes les sources sont disponibles (*ici dans le compte rendu, mais aussi dans le repo git*).
 
 ``Arnaud ALET``  &  ``Abdelkader Al Akoum``.
