@@ -208,17 +208,17 @@ fi
 
 u0=0
 u1=1
-for i in `seq 1 $(expr $1 - 1)`
+while [ $(expr $u0 + $u1) -lt $1 ]
 do
+    sleep 1
     clear
     temp=$u1
     u1=$(expr $u0 + $u1)
     u0=$temp
     cowsay $u1
-    sleep 1
 done
 clear
-cowsay -T U. $(expr $u0 + $u1)
+cowsay -T U. $u1
 ```
 
 #### Commentaire
